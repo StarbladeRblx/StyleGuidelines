@@ -7,7 +7,23 @@
 	- Another exception is when you don't need a certain variable in loops: then this variable should be named ``_``
 
 # Functions
-- Functions should always be 
+- Functions should always be written as **PascalCase**
+- Functions should always be written in the following style:
+```lua
+-- Good Example:
+function MyFunction()
+
+end
+
+-- Bad Example
+function myFunction()
+
+end
+
+myFunction = function()
+
+end
+```
 
 # Blocks
 - Single line blocks are okay for **small** statements. (< 80 characters)
